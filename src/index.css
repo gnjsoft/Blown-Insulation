@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.custom-slider-dots .slick-dots li button:before {
+    font-size: 12px;
+    /* Adjust as needed */
+}
