@@ -24,12 +24,12 @@ export default function Footer() {
 
                         <div className='mb-3'>
                             <li className='font-[tenor-sans] pb-4'>Quick Links</li>
-                            <li className='p-2 cursor-pointer text-sm text-gray-400'><a href='/'>HOME</a></li>
-                            <li className='p-2 cursor-pointer text-sm text-gray-400'><a href='/about'>ABOUT</a></li>
-                            <li className='p-2 cursor-pointer text-sm text-gray-400'><a href='/service'>SERVICE</a></li>
-                            <li className='p-2 cursor-pointer text-sm text-gray-400'><a href='/solution'>SOLUTION</a></li>
-                            <li className='p-2 cursor-pointer text-sm text-gray-400'><a href='/work'>WORK</a></li>
-                            <li className='p-2 cursor-pointer text-sm text-gray-400'><a href='/contact'>CONTACT US</a></li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'><Link to='/' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} >HOME</Link></li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'><Link to='about' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>ABOUT</Link></li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'><Link to='service' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>SERVICE</Link></li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'><Link to='solution' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>SOLUTION</Link></li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'><Link to='work' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>WORK</Link></li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'><Link to='contact' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>CONTACT US</Link></li>
                         </div>
 
                         <div className='mb-3'>
