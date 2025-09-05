@@ -17,8 +17,8 @@ export default function Banner() {
     return (
         <div>
             {/* Slider Section */}
-            <section className='bg-black'>
-                <div className="lg:max-w-[full] md:max-w-full overflow-hidden">
+            <section section className='bg-black' >
+                <div className="lg:max-w-full overflow-hidden">
                     <Slider {...settings}>
                         <div>
                             <img src="blownimage/s1.jpeg" alt="Slide 1" className="w-full h-150 object-cover rounded" />
@@ -31,7 +31,7 @@ export default function Banner() {
                         </div>
                     </Slider>
                 </div>
-            </section>
+            </section >
         </div>
     )
 }

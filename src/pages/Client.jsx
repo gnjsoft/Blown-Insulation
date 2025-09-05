@@ -33,7 +33,7 @@ export default function Client() {
                         <div className='border-b-2 border-[#00a0d7] w-[170px] pb-2'>
                             <h1 className='font-[tenor-sans] text-4xl'>Our Client</h1>
                         </div>
-                        <div className="lg:max-w-[full] md:max-w-full overflow-hidden py-5 mt-8 px-20 ">
+                        <div className="lg:max-w-[full] md:max-w-full overflow-hidden py-5 mt-8 px-15 ">
                             <Slider {...settings} className='custom-slider-dots'>
                                 <div>
                                     <img src="blownimage/adani.jpg" alt="Slide 1" className="w-50 h-25" />
@@ -84,7 +84,7 @@ export default function Client() {
                         </div>
                     </div>
                 </div>
-            </section >
+            </section>
         </>
     )
 }

@@ -5,8 +5,8 @@ export default function Introduction() {
         <>
             <div className='bg-[#f0f4f8] p-3'>
                 <section className='lg:max-w-[1320px] md:max-w-full mx-auto py-15'>
-                    <div className='border-b-2  border-[#00a0d7] w-[450px] pb-4 text-center mx-auto'>
-                        <h1 className='text-5xl font-semibold font-[tenor-sans] '>WHAT WE OFFER</h1>
+                    <div className='border-b-2  border-[#00a0d7] w-[370px] pb-4 text-center mx-auto'>
+                        <h1 className='text-4xl font-semibold font-[tenor-sans] '>WHAT WE OFFER</h1>
                     </div>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10'>
