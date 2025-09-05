@@ -34,7 +34,7 @@ export default function Client() {
                             <h1 className='font-[tenor-sans] text-4xl'>Our Client</h1>
                         </div>
                         <div className="lg:max-w-[full] md:max-w-full overflow-hidden py-5 mt-8 px-15 ">
-                            <Slider {...settings} className='custom-slider-dots'>
+                            <Slider {...settings}>
                                 <div>
                                     <img src="blownimage/adani.jpg" alt="Slide 1" className="w-50 h-25" />
                                 </div>

@@ -14,7 +14,7 @@ export default function Header() {
                 <div className=' lg:max-w-[1320px] md:max-w-full mx-auto grid grid-cols-2 justify-between items-center'>
                     <div>
                         <figure className='flex items-center gap-2'>
-                            <img src="blownimage/blown.png" alt="" className='w-20' />
+                            <img src="blownimage/blown.png" alt="" className='w-16 px-1' />
                             {/* <p className='font-bold'>BLOWN INSULATION PVT LTD</p> */}
                         </figure>
 
