@@ -13,7 +13,7 @@ import Contact from './pages/Contact.jsx';
 
 createRoot(document.getElementById('root')).render(
 
-  <HashRouter basename="/Blown-Insulation">
+  <HashRouter>
     <Routes>
       <Route path="" element={<MainLayout />}>
         <Route index element={<Home />} />
