@@ -13,17 +13,18 @@ import Contact from './pages/Contact.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter basename="/Blown-Insulation/">
+    <HashRouter basename="/Blown-Insulation">
       <Routes>
         <Route path="/" element={<MainLayout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Service />} />
-          <Route path="/solution" element={<Solution />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="service" element={<Service />} />
+          <Route path="solution" element={<Solution />} />
+          <Route path="work" element={<Work />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </HashRouter>
   </StrictMode>
+
 )
