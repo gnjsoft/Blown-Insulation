@@ -8,14 +8,10 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        // const Service_id = "service_8j7mhzb"
-        // const Template_id = "template_apq7yhq"
-        // const User_id = "aw3rnOb0eZlW_-Q0a"
-        const Service_id = "service_lwx3brq"
-        const Template_id = "template_e650kza"
-        const User_id = "kDfZiJIctxYNUuHH3"
-
-
+        const Service_id = "service_3f3n3r2"
+        const Template_id = "template_6dqrtgn"
+        const User_id = "aaitTijFrZZ-M-_Ln"
+        
         emailjs
             .sendForm(Service_id, Template_id, form.current, {
                 publicKey: User_id,
