@@ -13,19 +13,33 @@ export default function Introduction() {
                         <div className='bg-white p-4 border border-gray-300 rounded shadow-md hover:shadow-[#00a0d7] transition-shadow'>
                             <h2 className='text-2xl font-semibold'>Thermal Insulation Services</h2>
                             <p className='mt-2'> We provide high-quality thermal insulation for industrial and commercial projects, designed to
-                                improve energy efficiency, reduce operational costs, and enhance temperature control
+                                improve energy efficiency, reduce operational costs, and enhance temperature control.
+                            </p>
+                            <p>
+                                Unbonded Glass wool with Handmade Mattresses Upto 400 OC.
+                                Unbonded Mineral wool with Handmade Mattresses Upto 500 0С.
+                                Lightly Resin Bonded (LRB) Rockwool Mattresses with Wirenetting
+                                Upto 550 0С.<br />
+                                1. Calcium Silicate Powder / Slabs: Upto 800 ОС.<br />
+                                2. Ceramic Fiber Blankets: Upto 1000 0С.
                             </p>
                         </div>
                         <div className='bg-white p-4 border border-gray-300 rounded shadow-md hover:shadow-[#00a0d7] transition-shadow'>
                             <h2 className='text-2xl font-semibold'> Fireproofing Solutions</h2>
-                            <p className='mt-2'> Our comprehensive fireproofing services ensure that your infrastructure is protected against fire
-                                hazards, meeting all safety and regulatory standards to safeguard both people and property
-                            </p>
+                            <p>Instrument cable tray fire protection 30 minute hydrocarbon fire protection</p>
+                            <p className='mt-2'>products insulate cable trays carrying instrument control cables to ensure that the cables can operate long enough to allow process shut down during fire</p>
+                            <p>cable tray to wrap consist of Marine Plus blanket fully encpsulated in aluminium foil supplied and in a rool form. It is wrapped around the exterior of the cable tray and held in place with steel banding straps.</p><br />
                         </div>
                         <div className='bg-white p-4 border border-gray-300 rounded shadow-md hover:shadow-[#00a0d7] transition-shadow'>
                             <h2 className='text-2xl font-semibold'> Scaffolding Services</h2>
-                            <p className='mt-2'> We offer reliable and safe scaffolding solutions for industrial projects, ensuring secure access for
-                                construction, maintenance, and repair works
+                            <p className='mt-2'> We offer reliable and safe scaffolding solutions for industrial projects, ensuring secure access for construction, maintenance, and repair works</p>
+                            <p>From turnkey industrial scaffolding services to
+                                materials-only rentals, Apache designs and delivers
+                                comprehensive and integrated scaffolding services
+                                throughout the entire project lifecycle. We maintain
+                                the best material availability in the industry, and are
+                                always identifying opportunities to improve quality,
+                                enhance safety protocols, and optimize costs.
                             </p>
                         </div>
                         <div className='bg-white p-4 border border-gray-300 rounded shadow-md hover:shadow-[#00a0d7] transition-shadow'>
@@ -33,11 +47,22 @@ export default function Introduction() {
                             <p className='mt-2'> Specializing in cold insulation materials like polyurethane and polystyrene, we help maintain
                                 temperature control in sensitive environments, ensuring operational stability and efficiency
                             </p>
+                            <p>
+                                <b>Thermocole:</b> Both in ND and TF quality Upto -20 0C.<br />
+                                <b>Polyurethane Foam:</b> Upto - 200 OC.<br />
+                                <b>Phenolic Foam:</b> Upto - 180 0C.<br />
+                                <b>Nitrile Rubber:</b> Upto - 200 0C.
+                            </p>
                         </div>
                         <div className='bg-white p-4 border border-gray-300 rounded shadow-md hover:shadow-[#00a0d7] transition-shadow'>
-                            <h2 className='text-2xl font-semibold'>  Cladding & Metal Jacketing</h2>
+                            <h2 className='text-2xl font-semibold'> Cladding & Metal Jacketing</h2>
                             <p className='mt-2'>  Our cladding services provide protective coverings for pipes, tanks, and ducts, helping to reduce
                                 energy loss and protect assets from external damage
+                            </p>
+                            <p>We have associated with several clients for the cladding works with plain/perforated / profile
+                                type metallic materials such as Aluminum alloys, Galvanized Iron, Coated steel sheets, Stainless
+                                steel sheets and non metallic materials like Ulva Shield, Arma-chek, UV Curded FRP, GRP,
+                                Coated cloths, etc.
                             </p>
                         </div>
                         <div className='bg-white p-4 border border-gray-300 rounded shadow-md hover:shadow-[#00a0d7] transition-shadow'>

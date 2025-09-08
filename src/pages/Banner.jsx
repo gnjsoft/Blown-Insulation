@@ -8,11 +8,11 @@ export default function Banner() {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
     };
     return (
         <div>
@@ -20,14 +20,44 @@ export default function Banner() {
             <section className='bg-black'>
                 <div className="max-w-full overflow-hidden">
                     <Slider {...settings}>
-                        <div>
-                            <img src="blownimage/s1.jpeg" alt="Slide 1" className="w-full h-150 object-cover rounded" />
+                        <div className="relative w-full h-150">
+                            <img src="blownimage/hoti nsulation.jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
+                            <div className="absolute inset-0 bg-transparent rounded"></div>
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 className="text-5xl font-semibold text-[#00a0d7]">HOT INSULATION</h1>
+                            </div>
                         </div>
-                        <div>
-                            <img src="blownimage/s2.jpeg" alt="Slide 2" className="w-full h-150 object-cover rounded" />
+
+                        <div className="relative w-full h-150">
+                            <img src="blownimage/cold insulation.jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
+                            <div className="absolute inset-0 bg-transparent rounded"></div>
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 className="text-5xl font-semibold text-[#00a0d7]">COLD INSULATION</h1>
+                            </div>
                         </div>
-                        <div>
-                            <img src="blownimage/s3.jpeg" alt="Slide 3" className="w-full h-150 object-cover rounded" />
+
+                        <div className="relative w-full h-150">
+                            <img src="blownimage/cladding work.jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
+                            <div className="absolute inset-0 bg-transparent rounded"></div>
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 className="text-5xl font-semibold text-[#00a0d7]">CLADDING WORK</h1>
+                            </div>
+                        </div>
+
+                        <div className="relative w-full h-150">
+                            <img src="blownimage/scaffolding.jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
+                            <div className="absolute inset-0 bg-transparent rounded"></div>
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 className="text-5xl font-semibold text-[#00a0d7]">SCAFFOLDING</h1>
+                            </div>
+                        </div>
+
+                        <div className="relative w-full h-150">
+                            <img src="blownimage/mp.jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
+                            <div className="absolute inset-0 bg-transparent rounded"></div>
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 className="text-5xl font-semibold text-[#00a0d7]">MANPOWER SUPPLY</h1>
+                            </div>
                         </div>
                     </Slider>
                 </div>
