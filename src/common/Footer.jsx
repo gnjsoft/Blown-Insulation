@@ -33,10 +33,15 @@ export default function Footer() {
                         </div>
 
                         <div className='mb-3'>
-                            <li className='font-[tenor-sans] pb-4'>Privacy Policy</li>
-                            <div className='text-sm text-gray-400 leading-6'>
-                                <p></p>
-                            </div>
+                            <li className='font-[tenor-sans] pb-4'>Our Products</li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'>Hot Insulation</li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'>Cold Insulation</li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'>Insulation Material</li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'>Scaffolding</li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'>Jacketing</li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'>Fireproofing</li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'>Structure Proofing</li>
+                            <li className='p-2 cursor-pointer text-sm text-gray-400'>ManPower Supply</li>
                         </div>
                     </ul>
                     <div className='lg:flex justify-between text-center border-t border-gray-700 pt-5 mt-5'>

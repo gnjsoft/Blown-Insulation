@@ -48,7 +48,7 @@ export default function Service() {
                     </div>
 
                     <div className='mb-10'>
-                        <img src='blownimage/fire.png' className='w-100 h-70 bg-cover' />
+                        <img src='blownimage/fire.webp' className='w-100 h-70 bg-cover' />
                         <h2 className='text-center text-[#00a0d7] text-xl py-5 font-[tenor-sans]'>Fireproofing</h2>
                         <p className='text-gray-500 font-[tenor-sans] text-[18px]'>Fireproofing is the process of making a material or structure resistant to fire, preventing the spread of flames and reducing heat transfer. It is essential in construction and manufacturing to protect lives and property, ensuring safety and compliance with fire codes and regulations.</p>
                     </div>
