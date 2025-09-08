@@ -6,7 +6,7 @@ export default function Footer() {
         <>
             <footer className='bg-black w-full h-auto'>
                 <div className='lg:max-w-[1320px] md:max-w-full mx-auto py-10 text-white p-3'>
-                    <ul className='grid grid-cols-1 lg:grid-cols-[30%_30%_30%] md:grid-cols-2 gap-16 text-2xl'>
+                    <ul className='grid grid-cols-1 lg:grid-cols-3 justify-items-center md:grid-cols-2 gap-16 text-2xl'>
                         <div className='mb-3'>
                             <li className='font-[tenor-sans] pb-4'>Contact</li>
                             <div className='text-sm text-gray-400 leading-7'>
