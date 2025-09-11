@@ -21,10 +21,10 @@ export default function Banner() {
                 <div className="max-w-full overflow-hidden">
                     <Slider {...settings}>
                         <div className="relative w-full h-150">
-                            <img src="blownimage/hoti nsulation.jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
+                            <img src="blownimage/s1.jpeg" alt="Slide 1" className="w-full h-full object-cover rounded" />
                             <div className="absolute inset-0 bg-transparent rounded"></div>
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 className="text-5xl font-semibold text-[#00a0d7]">HOT INSULATION</h1>
+                                <h1 className="text-4xl font-semibold text-[#00a0d7] text-center">HOT INSULATION</h1>
                             </div>
                         </div>
 
@@ -32,7 +32,7 @@ export default function Banner() {
                             <img src="blownimage/cold insulation.jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
                             <div className="absolute inset-0 bg-transparent rounded"></div>
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 className="text-5xl font-semibold text-[#00a0d7]">COLD INSULATION</h1>
+                                <h1 className="text-4xl font-semibold text-[#00a0d7] text-center">COLD INSULATION</h1>
                             </div>
                         </div>
 
@@ -40,15 +40,15 @@ export default function Banner() {
                             <img src="blownimage/cladding work.jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
                             <div className="absolute inset-0 bg-transparent rounded"></div>
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 className="text-5xl font-semibold text-[#00a0d7]">CLADDING WORK</h1>
+                                <h1 className="text-4xl font-semibold text-[#00a0d7] text-center">CLADDING WORK</h1>
                             </div>
                         </div>
 
                         <div className="relative w-full h-150">
-                            <img src="blownimage/scaffolding.jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
+                            <img src="blownimage/scaffolding (1).jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
                             <div className="absolute inset-0 bg-transparent rounded"></div>
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 className="text-5xl font-semibold text-[#00a0d7]">SCAFFOLDING</h1>
+                                <h1 className="text-4xl font-semibold text-[#00a0d7] text-center">SCAFFOLDING</h1>
                             </div>
                         </div>
 
@@ -56,7 +56,7 @@ export default function Banner() {
                             <img src="blownimage/mp.jpg" alt="Slide 1" className="w-full h-full object-center rounded" />
                             <div className="absolute inset-0 bg-transparent rounded"></div>
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 className="text-5xl font-semibold text-[#00a0d7]">MANPOWER SUPPLY</h1>
+                                <h1 className="text-4xl font-semibold text-[#00a0d7] text-center">MANPOWER SUPPLY</h1>
                             </div>
                         </div>
                     </Slider>

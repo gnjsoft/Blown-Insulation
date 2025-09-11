@@ -12,8 +12,7 @@ export default function Introduction() {
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10'>
                         <div className='bg-white p-4 border border-gray-300 rounded shadow-md hover:shadow-[#00a0d7] transition-shadow'>
                             <h2 className='text-2xl font-semibold'>Thermal Insulation Services</h2>
-                            <p className='mt-2'> We provide high-quality thermal insulation for industrial and commercial projects, designed to
-                                improve energy efficiency, reduce operational costs, and enhance temperature control.
+                            <p className='mt-2'> We provide high-quality thermal insulation for industrial and commercial projects, designed to improve energy efficiency, reduce operational costs, and enhance temperature control.
                             </p>
                             <p>
                                 Unbonded Glass wool with Handmade Mattresses Upto 400 OC.
@@ -44,8 +43,7 @@ export default function Introduction() {
                         </div>
                         <div className='bg-white p-4 border border-gray-300 rounded shadow-md hover:shadow-[#00a0d7] transition-shadow'>
                             <h2 className='text-2xl font-semibold'> Cold Insulation Solutions</h2>
-                            <p className='mt-2'> Specializing in cold insulation materials like polyurethane and polystyrene, we help maintain
-                                temperature control in sensitive environments, ensuring operational stability and efficiency
+                            <p className='mt-2'> Specializing in cold insulation materials like polyurethane and polystyrene, we help maintain temperature control in sensitive environments, ensuring operational stability and efficiency
                             </p>
                             <p>
                                 <b>Thermocole:</b> Both in ND and TF quality Upto -20 0C.<br />
@@ -56,17 +54,13 @@ export default function Introduction() {
                         </div>
                         <div className='bg-white p-4 border border-gray-300 rounded shadow-md hover:shadow-[#00a0d7] transition-shadow'>
                             <h2 className='text-2xl font-semibold'> Cladding & Metal Jacketing</h2>
-                            <p className='mt-2'>  Our cladding services provide protective coverings for pipes, tanks, and ducts, helping to reduce
-                                energy loss and protect assets from external damage
+                            <p className='mt-2'>  Our cladding services provide protective coverings for pipes, tanks, and ducts, helping to reduce energy loss and protect assets from external damage
                             </p>
-                            <p>We have associated with several clients for the cladding works with plain/perforated / profile
-                                type metallic materials such as Aluminum alloys, Galvanized Iron, Coated steel sheets, Stainless
-                                steel sheets and non metallic materials like Ulva Shield, Arma-chek, UV Curded FRP, GRP,
-                                Coated cloths, etc.
+                            <p>We have associated with several clients for the cladding works with plain/perforated / profile type metallic materials such as Aluminum alloys, Galvanized Iron, Coated steel sheets, Stainless steel sheets and non metallic materials like Ulva Shield, Arma-chek, UV Curded FRP, GRP,Coated cloths, etc.
                             </p>
                         </div>
                         <div className='bg-white p-4 border border-gray-300 rounded shadow-md hover:shadow-[#00a0d7] transition-shadow'>
-                            <h2 className='text-2xl font-semibold'> MenPower Supply</h2>
+                            <h2 className='text-2xl font-semibold'> ManPower Supply</h2>
                             <p className='mt-2'> Manpower supply refers to the provision of workers, typically through an agency, to another company for a temporary or long-term period, helping businesses find skilled or unskilled labor to meet fluctuating workloads or specialized needs.
                             </p>
                         </div>

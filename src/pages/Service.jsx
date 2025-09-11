@@ -11,7 +11,6 @@ export default function Service() {
             </div>
             <section className='lg:max-w-[1320px] md:max-w-full mx-auto py-10 px-3'>
                 <div className='max-w-[1320px] mx-auto py-10'>
-                    {/* <h1 className='text-5xl font-[tenor-sans] font-semibold text-center py-5'>SERVICES</h1> */}
                     <p className='text-gray-500 font-[tenor-sans] text-[20px] text-justify'>BLOWN Insulation is dedicated to providing high-quality industrial services that are innovative and effective for many industrial applications. Our current areas of focus include industrial thermal insulation services, industrial siding services, Insulation material, as a service, encompasses the supply and application of these materials, often including surface preparation, vapor barriers, and protective cladding , industrial scaffolding services, and industrial refractory services. Providing the best workmanship while working within time and budget constraints is our goal for every project undertaken.</p>
                 </div>
 
@@ -42,25 +41,32 @@ export default function Service() {
                     </div>
 
                     <div className='mb-10'>
-                        <img src='blownimage/cladding.png' className='w-100 h-70 bg-cover' />
+                        <img src='blownimage/cladding.png' className='w-100 h-70 object-cover' />
                         <h2 className='text-center text-[#00a0d7] text-xl py-5 font-[tenor-sans]'>Jacketing</h2>
                         <p className='text-gray-500 font-[tenor-sans] text-[18px]'>Jacketing is a protective covering applied to insulation materials to enhance durability, weather resistance, and aesthetics. It is commonly used in industrial applications to safeguard insulation from mechanical damage, moisture, and environmental factors, ensuring long-lasting performance.</p>
                     </div>
 
                     <div className='mb-10'>
-                        <img src='blownimage/fire.webp' className='w-100 h-70 bg-cover' />
+                        <div className='flex flex-wrap'>
+                            <img src='blownimage/fire.png' className='w-[50%] h-35 object-center' />
+                            <img src='blownimage/fire1.jpeg' className='w-[50%] h-35 object-cover' />
+                            <img src='blownimage/fire2.png' className='w-[100%] h-35 object-cover' />
+                        </div>
                         <h2 className='text-center text-[#00a0d7] text-xl py-5 font-[tenor-sans]'>Fireproofing</h2>
-                        <p className='text-gray-500 font-[tenor-sans] text-[18px]'>Fireproofing is the process of making a material or structure resistant to fire, preventing the spread of flames and reducing heat transfer. It is essential in construction and manufacturing to protect lives and property, ensuring safety and compliance with fire codes and regulations.</p>
+                        <p className='text-gray-500 font-[tenor-sans] text-[18px]'>
+                            Cable tray & Duct fire protection. 30 minute hydrocarbon fire protection. Fireproofing is the process of making a material or instrument cable tray & duct resistant to fire, preventing the spread of flames and reducing heat transfer. It is essential in construction and manufacturing to protect lives and property, ensuring safety and compliance with fire codes and regulations.
+                        </p>
                     </div>
 
+
                     <div className='mb-10'>
-                        <img src='blownimage/structure.png' className='w-100 h-70 bg-cover' />
+                        <img src='blownimage/structure.jpg' className='w-100 h-70 bg-cover' />
                         <h2 className='text-center text-[#00a0d7] text-xl py-5 font-[tenor-sans]'>Structure Proofing</h2>
                         <p className='text-gray-500 font-[tenor-sans] text-[18px]'>Structure proofing is the process of making a material or structure resistant to fire, preventing the spread of flames and reducing heat transfer. It is essential in construction and manufacturing to protect lives and property, ensuring safety and compliance with fire codes and regulations.</p>
                     </div>
 
                     <div className='mb-10'>
-                        <img src='blownimage/mp.jpg' className='w-100 h-70 bg-cover' />
+                        <img src='blownimage/manpower.webp' className='w-100 h-70 bg-cover' />
                         <h2 className='text-center text-[#00a0d7] text-xl py-5 font-[tenor-sans]'>ManPower Supply</h2>
                         <p className='text-gray-500 font-[tenor-sans] text-[18px]'>Manpower supply involves providing skilled and unskilled labor for various construction and industrial projects. It ensures that businesses have the necessary workforce to complete tasks efficiently and safely, meeting project deadlines and quality standards.</p>
                     </div>
