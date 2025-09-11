@@ -11,7 +11,7 @@ export default function Contact() {
         const Service_id = "service_3f3n3r2"
         const Template_id = "template_6dqrtgn"
         const User_id = "aaitTijFrZZ-M-_Ln"
-        
+
         emailjs
             .sendForm(Service_id, Template_id, form.current, {
                 publicKey: User_id,
@@ -67,7 +67,7 @@ export default function Contact() {
                                 Sitamarhi, Bihar, India-843302 <br />
                                 Phone:0265 2233501 / 2233502 <br />
                                 Mobile: +91 974153 1501, +91 8789046144 <br /><br />
-                                E-mail: <a href='mailto:info@blowninsulations.com' className='text-blue-400'>info@blowninsulations.com</a>
+                                E-mail: <a href='mailto:info@blowninsulationservices.com' className='text-blue-400'>info@blowninsulations.com</a>
                             </p>
                         </div>
                     </div>

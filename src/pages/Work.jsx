@@ -59,31 +59,6 @@ export default function Work() {
                                                         </span>
                                                     ))}
                                                 </p>
-
-
-                                            </div>
-                                            <div className=''>
-                                                <p className='text-gray-500 font-semibold font-[tenor-sans]'>ACTUAL</p>
-                                                <p className='text-gray-400 font-[tenor-sans] text-[18px]'>
-                                                    {(Array.isArray(project.actual) ? project.actual : [project.actual]).map((line, index, arr) => (
-                                                        <span key={index}>
-                                                            {line}
-                                                            {arr.length > 1 && <br />}
-                                                        </span>
-                                                    ))}
-                                                </p>
-
-                                            </div>
-                                            <div className=''>
-                                                <p className='text-gray-500 font-semibold font-[tenor-sans]'>YEAR OF COMPLETION</p>
-                                                <p className='text-gray-400 font-[tenor-sans] text-[18px]'>
-                                                    {(Array.isArray(project.year) ? project.year : [project.year]).map((line, index, arr) => (
-                                                        <span key={index}>
-                                                            {line}
-                                                            {arr.length > 1 && <br />}
-                                                        </span>
-                                                    ))}
-                                                </p>
                                             </div>
                                         </li>
                                     </ul>
