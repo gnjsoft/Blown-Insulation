@@ -33,9 +33,13 @@ export default function Client() {
 
                     {/* IMAGE */}
                     <div className='my-15'>
-                        <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-5 py-5'>
-                            <img src="blownimage/model1.png" alt="m1" />
-                             <img src="blownimage/model2.png" alt="m2" />
+                        <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-5'>
+                            <div className='border-2 border-[#00a0d7] p-5 shadow-2xl'>
+                                <img src="blownimage/model1.png" alt="m1" />
+                            </div>
+                            <div className='border-2 border-[#00a0d7] p-5 shadow-2xl'>
+                                <img src="blownimage/model2.png" alt="m2" />
+                            </div>
                         </div>
                     </div>
 

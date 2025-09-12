@@ -49,8 +49,8 @@ export default function Contact() {
                             <p className='text-gray-500 font-[tenor-sans] text-[17px] text-justify'>
                                 Address: 14, Madhuvan Avenue, I.P.C.L (Reliance) Road,<br />
                                 Koyali Village, Vadodara, Gujarat, India-391330 <br />
-                                Phone:0265 2233501 / 2233502 <br />
-                                Mobile: +91 974153 1501, +91 8789046144 <br /><br />
+                                Phone:02652233501 / 2233502 <br />
+                                Mobile: +91 9741531501, +91 8789046144 <br /><br />
                                 E-mail: <a href='mailto:Blowninsulationservices@gmail.com' className='text-blue-400'>Blowninsulationservices@gmail.com</a><br />
                             </p>
                         </div>
@@ -65,9 +65,9 @@ export default function Contact() {
                             <p className='text-gray-500 font-[tenor-sans] text-[17px] text-justify'>
                                 Address: Naya Tola, Ward No.2 Riga Road (Nr.Tower),<br />
                                 Sitamarhi, Bihar, India-843302 <br />
-                                Phone:0265 2233501 / 2233502 <br />
-                                Mobile: +91 974153 1501, +91 8789046144 <br /><br />
-                                E-mail: <a href='mailto:info@blowninsulationservices.com' className='text-blue-400'>info@blowninsulations.com</a>
+                                Phone:02652233501 / 2233502 <br />
+                                Mobile: +91 9741531501, +91 8789046144 <br /><br />
+                                E-mail: <a href='mailto:info@blowninsulationservices.com' className='text-blue-400'>info@blowninsulationservices.com</a>
                             </p>
                         </div>
                     </div>

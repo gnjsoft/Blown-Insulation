@@ -1,23 +1,22 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router';
 
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const [button, setButton] = useState(1);
+    const [button, setButton] = useState(0);
+
 
     return (
         <>
             {/* Header Section */}
             <section className='bg-white shadow-xl py-4 fixed top-0 left-0 w-full z-50'>
-                <div className=' lg:max-w-[1320px] md:max-w-full mx-auto grid grid-cols-2 justify-between items-center'>
+                <div className='lg:max-w-[1320px] md:max-w-full mx-auto grid grid-cols-2 justify-between items-center'>
                     <div>
                         <figure className='flex items-center gap-2'>
                             <img src="blownimage/blown.png" alt="" className='w-16 px-1' />
-                            {/* <p className='font-bold'>BLOWN INSULATION PVT LTD</p> */}
                         </figure>
-
                     </div>
                     <div>
                         <nav>

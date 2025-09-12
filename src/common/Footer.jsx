@@ -20,6 +20,17 @@ export default function Footer() {
                                 <p><b>Register Office</b>: Naya Tola, Ward No.2 Riga Road (Nr.Tower),
                                     Sitamarhi, Bihar, India-843302</p>
                             </div>
+                            <div className='flex gap-3 my-4'>
+                                <a href='https://www.facebook.com/share/1FaF23meGE/'>
+                                    <img src="blownimage/fb.png" alt="fb" className='w-8 h-8' />
+                                </a>
+                                <a href='https://www.instagram.com/blowninsulationservices?igsh=MXcweWs0MXY2dGxzYQ=='>
+                                    <img src="blownimage/insta.png" alt="insta" className='w-8 h-8' />
+                                </a>
+                                <a href='https://www.linkedin.com/company/blowninsulationservices/about/?viewAsMember=true'>
+                                    <img src="blownimage/linkedin.png" alt="linkedin" className='w-8 h-8' />
+                                </a>
+                            </div>
                         </div>
 
                         <div className='mb-3'>
@@ -44,6 +55,7 @@ export default function Footer() {
                             <li className='p-2 cursor-pointer text-sm text-gray-400'>ManPower Supply</li>
                         </div>
                     </ul>
+
                     <div className='lg:flex justify-between text-center border-t border-gray-700 pt-5 mt-5'>
                         <p className='text-sm text-gray-400'>© 2025 Blown Insulation Services. All rights reserved.</p>
                         <p className='text-sm text-gray-400'>Designed and Developed By : <a href='https://gnjworldwide.com/' className='text-blue-500 hover:text-blue-700'>Gnj Worldwide India</a></p>

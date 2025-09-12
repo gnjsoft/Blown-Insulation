@@ -37,18 +37,30 @@ export default function Work() {
                                 (
                                     <ul className='p-4 leading-10 border-t border-gray-300'>
                                         <li className=''>
+
                                             <div className=''>
                                                 <p className='text-gray-500 font-semibold font-[tenor-sans]'>DESCRIPTION OF WORK</p>
-                                                <p className='text-gray-400 font-[tenor-sans] text-[18px]'>
-                                                    {(Array.isArray(project.description) ? project.description : [project.description]).map((line, index, arr) => (
-                                                        <span key={index}>
-                                                            {line}
-                                                            {arr.length > 1 && <br />}
-                                                        </span>
-                                                    ))}
-                                                </p>
+                                                {(Array.isArray(project.po) ? project.po : [project.po]).map((_, i) => {
+                                                    const poLine = Array.isArray(project.po) ? project.po[i] : project.po;
+                                                    const descLine = Array.isArray(project.description) ? project.description[i] : project.description;
 
+                                                    return (
+                                                        <div key={i}>
+                                                            {poLine && (
+                                                                <p className='text-yellow-400 font-[tenor-sans] text-[18px]'>
+                                                                    {poLine}
+                                                                </p>
+                                                            )}
+                                                            {descLine && (
+                                                                <p className='text-gray-400 font-[tenor-sans] text-[18px]'>
+                                                                    {descLine}
+                                                                </p>
+                                                            )}
+                                                        </div>
+                                                    );
+                                                })}
                                             </div>
+
                                             <div className=''>
                                                 <p className='text-gray-500 font-semibold font-[tenor-sans]'>CLIENT NAME</p>
                                                 <p className='text-gray-400 font-[tenor-sans] text-[18px]'>
