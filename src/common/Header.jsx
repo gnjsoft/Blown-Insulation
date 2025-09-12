@@ -5,8 +5,7 @@ import { Link } from 'react-router';
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const [button, setButton] = useState(0);
-
+    const [button, setButton] = useState(1);
 
     return (
         <>
