@@ -54,7 +54,7 @@ const projects = [
             "P 81003853/ J31829",
             "P 81003852/JE1847",
             "P81005678",
-            "KKSEPL/PANIPAT/UIPL-P-25-EPCM-03/2024-25/0253",
+            "9810001513-Date:09/06/2025",
         ],
         description: [
             " Hot Insulation work at CFBC Boiler for Welspun india limited",
@@ -152,7 +152,7 @@ const projects = [
         ],
         description: [
             "Scaffolding Erection for Tal-Mundra",
-            "Scaffolding Erection for Tal-Mundra",
+            "Hot Insulation work at Tank for Tal-Mundra",
         ]
         ,
         client: [
@@ -183,7 +183,7 @@ const projects = [
     },
     {
         company: "Kamlesh kumar singh Engneer Pvt. Ltd",
-        po: "25000298 OS Date:06/06/2025",
+        po: "KKSEPL/PANIPAT/UIPL-P-25-EPCM-03/2024-25/0253",
         description: "Hot & Cold Insulation Work for Indian Oil Corporation Limited",
         client: "Indian Oil Corporation Limited P. O. Panipat Refinery, Panipat - 132 140, Haryana",
 
