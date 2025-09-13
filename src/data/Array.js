@@ -119,7 +119,7 @@ const projects = [
         company: "Thyssenkrupp Industries India Pvt Ltd.",
         po: [
             " 7000036554",
-            " 7000037905 ",
+            " 7000037905",
             " 7000040411",
             " 7000041476",
         ],
