@@ -126,8 +126,8 @@ const projects = [
         description: [
             " Hot Insulation work at CFBC Boiler for Deepak Phenolics ltd",
             " Hot Insulation work at CFBC Boiler for Aditya Birla Indian Rayon Compound, Veraval, Gujarat",
-            " Hot Insulation work  at  CFBC Boiler for RCCPL Private Limited Post Mukutban, Taluka – Zari Jamani",
-            " Hot Insulation work  at  CFBC Boiler for Tata Chemicals Limited Mithapur, Okhamandal, Dwarka",
+            " Hot Insulation work at CFBC Boiler for RCCPL Private Limited Post Mukutban, Taluka – Zari Jamani",
+            " Hot Insulation work at CFBC Boiler for Tata Chemicals Limited Mithapur, Okhamandal, Dwarka",
         ],
         client: [
             "1. Deepak Phenolics ltd 12/B/1, GIDC Dahej Industries Estate Gujarat India - 392130",
